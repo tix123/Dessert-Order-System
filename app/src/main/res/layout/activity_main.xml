@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#E9C885"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#683914"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Order Your Desserts"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_weight="1"
+                android:src="@drawable/cake" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Cake"
+                    android:textColor="#683914"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="$4.99"
+                        android:textColor="#000"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/cake_minus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="cakeQtyMinus"
+                        android:text="−" />
+
+                    <TextView
+                        android:id="@+id/cake_qty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="40dp"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/cake_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="cakeQtyAdd"
+                        android:text="+" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_weight="1"
+                android:src="@drawable/milkshake" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Milkshake"
+                    android:textColor="#683914"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="$5.99"
+                        android:textColor="#000"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/milkshake_minus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="milkshakeQtyMinus"
+                        android:text="−" />
+
+                    <TextView
+                        android:id="@+id/milkshake_qty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="40dp"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/milkshake_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="milkshakeQtyAdd"
+                        android:text="+" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_weight="1"
+                android:src="@drawable/cupcake" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Cupcake"
+                    android:textColor="#683914"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="$3.99"
+                        android:textColor="#000"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/cupcake_minus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="cupcakeQtyMinus"
+                        android:text="−" />
+
+                    <TextView
+                        android:id="@+id/cupcake_qty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="40dp"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/cupcake_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="cupcakeQtyAdd"
+                        android:text="+" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_weight="1"
+                android:src="@drawable/dutch_pie" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Dutch Pie"
+                    android:textColor="#683914"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="$4.99"
+                        android:textColor="#000"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/dutch_pie_minus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="dutchPieQtyMinus"
+                        android:text="−" />
+
+                    <TextView
+                        android:id="@+id/dutch_pie_qty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="40dp"
+                        android:background="#FFFFFF"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/dutch_pie_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:minWidth="40dp"
+                        android:onClick="dutchPieQtyAdd"
+                        android:text="+" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/place_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D62828"
+            android:minWidth="180dp"
+            android:onClick="placeOrder"
+            android:padding="5dp"
+            android:text="Place Order"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
