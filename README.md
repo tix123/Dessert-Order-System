@@ -16,8 +16,7 @@ Prototype link is [#here](https://xd.adobe.com/view/ba26b2a4-d025-48da-6d4f-df52
 
 <p align="left">
   <img src="https://github.com/tix123/Dessert-Order-System/blob/master/screenshots/Screenshot_01.jpg">
-</p>
-
-<p align="left">
   <img src="https://github.com/tix123/Dessert-Order-System/blob/master/screenshots/Screenshot_02.jpg">
 </p>
+
+
