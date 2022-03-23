@@ -1,5 +1,5 @@
 # Dessert Order System
-Download the [#apk](../blob/master/AndroidAssignment_01/desert order system.apk) file and install it into an android phone or android emulator.
+Download the [#apk](https://github.com/tix123/Dessert-Order-System/blob/master/AndroidAssignment_01/desert order system.apk) file and install it into an android phone or android emulator.
 
 
 ## Prototype
