@@ -2,8 +2,8 @@
 Download the [#apk](https://github.com/tix123/Dessert-Order-System/raw/master/AndroidAssignment_01/desert-order-%20system.apk) file and install it into an android phone or android emulator.
 
 
-## Prototype
-Adobe XD prototype link is [#here](https://xd.adobe.com/view/ba26b2a4-d025-48da-6d4f-df522c26cfb5-cc17/)
+## Adobe XD Prototype
+Prototype link is [#here](https://xd.adobe.com/view/ba26b2a4-d025-48da-6d4f-df522c26cfb5-cc17/)
 <br>
 <p align="left">
   <img src="https://github.com/tix123/Dessert-Order-System/blob/master/screenshots/Screenshot_prototype.jpg">
@@ -17,7 +17,7 @@ Adobe XD prototype link is [#here](https://xd.adobe.com/view/ba26b2a4-d025-48da-
 <p align="left">
   <img src="https://github.com/tix123/Dessert-Order-System/blob/master/screenshots/Screenshot_01.jpg">
 </p>
-<br>
+
 <p align="left">
   <img src="https://github.com/tix123/Dessert-Order-System/blob/master/screenshots/Screenshot_02.jpg">
 </p>
