@@ -1,7 +1,7 @@
 # Dessert Order System
 
 
-## How to use
+## How to run this project
 Download the [#apk](https://github.com/tix123/Dessert-Order-System-Android-Java/raw/master/AndroidAssignment_01/desert-order-%20system.apk) file and install it into an android phone or android emulator.
 <br>
 <br>
